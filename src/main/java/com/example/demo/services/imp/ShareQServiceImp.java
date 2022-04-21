@@ -1,9 +1,10 @@
-package com.example.demo.services;
+package com.example.demo.services.imp;
 
 import com.example.demo.models.ShareQ;
 import com.example.demo.models.User;
 import com.example.demo.Repository.ShareQRepository;
 import com.example.demo.Repository.UserRepository;
+import com.example.demo.services.ShareQService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

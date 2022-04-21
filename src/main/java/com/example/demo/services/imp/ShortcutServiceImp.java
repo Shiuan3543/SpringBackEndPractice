@@ -1,9 +1,11 @@
-package com.example.demo.services;
+package com.example.demo.services.imp;
 
 import com.example.demo.models.Shortcut;
 import com.example.demo.Repository.ShortcutRepository;
 
 import java.util.List;
+
+import com.example.demo.services.ShortcutService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

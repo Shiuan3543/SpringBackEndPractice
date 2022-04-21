@@ -1,10 +1,12 @@
-package com.example.demo.services;
+package com.example.demo.services.imp;
 
 import com.example.demo.models.Atm;
 import com.example.demo.Repository.AtmRepository;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.example.demo.services.AtmService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
