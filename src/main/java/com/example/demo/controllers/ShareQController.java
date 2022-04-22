@@ -19,6 +19,7 @@ public class ShareQController {
 
     @PostMapping("/shareq/create")  // 建立並回傳短網址，讓前端用短網址製造Qrcode
     public ResponseEntity<ShareQ> create(@RequestBody ShareQ shareQ) {
+        System.out.println(shareQ.getIdno());
         try {
             ShareQ resShareQ = shareQService.create(shareQ);
             if(shareQ == null) {
